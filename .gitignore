@@ -1,0 +1,17 @@
+# Build artifacts
+target/
+*.c7s
+*.c7s.zip
+
+# Node & dependencies
+node_modules/
+dist/
+.pnpm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

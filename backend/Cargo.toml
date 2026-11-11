@@ -1,0 +1,26 @@
+[package]
+name = "dev_calagopus_aiassistant"
+version = "1.0.0"
+edition = "2024"
+description = "AI Assistant Web UI for Calagopus game panel with interactive file read/write permissions and multi-provider API keys."
+authors = ["Pato"]
+
+[dependencies]
+shared = { path = "../../shared" }
+tokio = { workspace = true }
+tracing = { workspace = true }
+axum = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+utoipa = { workspace = true }
+utoipa-axum = { workspace = true }
+async-trait = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+compact_str = { workspace = true }
+semver = { workspace = true }
+sqlx = { workspace = true }
+futures-util = { workspace = true }
+wings-api = { path = "../../api-clients/wings-api" }
+reqwest = { workspace = true }
